@@ -1,0 +1,9 @@
+{% autoescape off %}
+
+hi {{user.first_name}}
+Zehmet olmase dogriulayin asagidaki link 
+http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+eger sen deyilsense fikir verme buna
+
+{% endautoescape %}
