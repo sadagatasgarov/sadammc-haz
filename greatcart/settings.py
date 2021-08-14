@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'store',
     'carts',
     'orders',
-    'admin_honeypot'
+    'admin_honeypot',
     
 ]
 
@@ -104,7 +104,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-    }
+}
 
 
 # Password validation
